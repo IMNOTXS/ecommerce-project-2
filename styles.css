@@ -451,6 +451,17 @@ select {
   max-width: 200px;
 }
 
+
+.books__loading--spinner{
+  display: none !important;
+}
+
+
+.books__loading .books__loading--spinner{
+  display: block !important;
+}
+
+
 .books__loading {
   display: flex;
   align-items: center;
